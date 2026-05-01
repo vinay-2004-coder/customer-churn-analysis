@@ -1,4 +1,4 @@
-# 📊 Customer Churn Analysis
+# # 📊 Customer Churn Analysis (End-to-End Data Analytics Project)
 
 ## 🎯 Objective
 Analyze customer churn behavior and identify key factors leading to customer attrition.
