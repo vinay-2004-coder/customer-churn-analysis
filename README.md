@@ -27,7 +27,7 @@ Customer dataset containing:
 ## 📊 Exploratory Data Analysis
 
 ### 📈 Churn Rate vs Tenure
-![Churn Plot](images/churn_plot.png)
+![Churn Plot](Images/churn_plot.png)
 
 Churn is highest among customers with low tenure and stabilizes over time, indicating that early-stage customer retention is critical.
 
