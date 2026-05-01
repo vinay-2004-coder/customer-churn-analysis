@@ -1,4 +1,4 @@
-# # 📊 Customer Churn Analysis (End-to-End Data Analytics Project)
+# Customer Churn Analysis
 
 ## 🎯 Objective
 Analyze customer churn behavior and identify key factors leading to customer attrition.
@@ -6,28 +6,36 @@ Analyze customer churn behavior and identify key factors leading to customer att
 ---
 
 ## 📂 Dataset
-- Customer dataset containing features like:
-  - Tenure
-  - Support Calls
-  - Subscription Type
-  - Contract Length
-  - Total Spend
-  - Churn (Target Variable)
+Customer dataset containing:
+- Tenure
+- Support Calls
+- Subscription Type
+- Contract Length
+- Total Spend
+- Churn (Target Variable)
 
 ---
 
 ## 🧹 Data Cleaning
 - Removed missing values
 - Converted data types
-- Handled categorical variables using encoding
+- Removed duplicates
+- Encoded categorical variables
 
 ---
 
 ## 📊 Exploratory Data Analysis
 
-### Key Insights:
-- Customers with **monthly contracts** show higher churn
-- Customers with **high support calls** have significantly higher churn
+### 📈 Churn Rate vs Tenure
+![Churn Plot](images/churn_plot.png)
+
+Churn is highest among customers with low tenure and stabilizes over time, indicating that early-stage customer retention is critical.
+
+---
+
+### 🔍 Key Insights
+- Customers with **monthly contracts** have the highest churn
+- Customers with **high support calls** show significantly higher churn
 - **Early tenure customers** are more likely to leave
 - **Subscription type** has minimal impact on churn
 - Customers who churn tend to have **lower spending**
@@ -35,13 +43,12 @@ Analyze customer churn behavior and identify key factors leading to customer att
 ---
 
 ## 🤖 Model
-- Built a **Logistic Regression model**
-- Used:
-  - Train-test split
-  - Feature encoding
-  - Standard scaling
+- Logistic Regression
+- Train-test split
+- Feature encoding (get_dummies)
+- Standard scaling
 
-### 📈 Accuracy:
+### 📈 Accuracy
 - ~89.6%
 
 ---
@@ -50,7 +57,7 @@ Analyze customer churn behavior and identify key factors leading to customer att
 - Focus on **retaining early-stage customers**
 - Improve **customer support experience**
 - Encourage **long-term contracts**
-- Identify **low-engagement customers early**
+- Identify and target **low-engagement customers**
 
 ---
 
